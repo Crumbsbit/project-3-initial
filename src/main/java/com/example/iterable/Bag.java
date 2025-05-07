@@ -12,6 +12,7 @@ public class Bag<T> implements Container<T>
         items = new ArrayList<>();
     }
 
+
     @Override
     public boolean isEmpty() {
         return items.isEmpty();
